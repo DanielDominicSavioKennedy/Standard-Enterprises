@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Daniel Dominic Savio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="head">STANDARD ENTERPRISES
+        <a id="tag" href=""><img height="270" width="200" src="tag.png" alt="Contact Us"></a>
+    </h1>
+    <a id="contact">Contact Us</a>
+
+    <div id="abt">
+        <h1>About Us</h1>
+        <p>We provide the skilled technical workforce, standardized processes and predictive technologies you need to solve recruiting challenges, overcome skills gaps and improve overall equipment efficiency — ensuring optimal reliability as you face rising
+            demand and shorter lead times.</p>
+    </div>
+
+
+    <div>
+        <h1>Services Provided</h1>
+        <ul>
+            <td></td>
+        </ul>
+    </div>
+
+    <div>
+        <h1>Contact Details</h1>
+
+        <form onsubmit="sendEmail()">
+            <input type="text" id="name" placeholder="Your Holder"><br>
+            <input type="email" id="email" placeholder="Email id"><br>
+            <input type="text" id="phone" placeholder="Phone no"><br>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script>
+            function sendEmail() {
+                Email.send({
+                    SecureToken: "1C2A6294F361D319E47078C60BC8A38ABEC9",
+                    To: 'saviodomnic2002@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "This is the subject",
+                    Body: "And this is the body"
+                }).then(
+                    message => alert(message)
+                );
+            }
+        </script>
+
+        <p>
+            <p><img height="10" src="location.png" alt=""> 5-3-373/374(1141)<br>Near Gujrathi School Lane,<br>Hyderbasti,R.P.Road,<br>Secunderabad-500 003,Hyderabad,Telangana,<br>India.</p>
+            <p><img height="10" src="phone.png" alt=""> 8008288212</p>
+            <p><img height="10" src="email.png" alt=""> kennedydaniel1970@gmail.com</p>
+            <p>Mr Kennedy Daniel (Proproetor)</p>
+        </p>
+    </div>
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

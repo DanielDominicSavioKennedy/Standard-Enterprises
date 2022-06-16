@@ -1,0 +1,48 @@
+body {
+    background-color: azure;
+}
+
+#abt {
+    color: black;
+    font-family: serif;
+}
+
+#head {
+    background-color: rgb(19, 23, 106, 100);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 600%;
+    text-shadow: 1px 1px 5px black;
+    top: 800cm;
+    padding-left: 0.7cm;
+    padding-top: 5cm;
+    height: 5cm;
+}
+
+#tag {
+    position: absolute;
+    top: -1cm;
+    left: 35cm;
+    right: 2cm;
+    z-index: 5;
+}
+
+#contact {
+    font-size: medium;
+    position: absolute;
+    left: 37.20cm;
+    top: 15;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+    font-weight: 700;
+    font-size: 20;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 9;
+    writing-mode: vertical-rl;
+}
+
+form {
+    padding: 2cm;
+    border: 10px;
+    border-radius: 10px;
+}
